@@ -50,3 +50,21 @@ const config = {
 module.exports = config;
 ```
 
+---
+
+## 运行
+
+本地运行默认 3000 端口
+
+swagger地址: localhost:3000/swagger
+
+```shell
+yarn dev
+```
+
+pm2 运行
+
+```shell
+yarn prd
+```
+
