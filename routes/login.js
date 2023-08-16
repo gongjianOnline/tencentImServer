@@ -39,7 +39,7 @@ const uuid = require('uuid')
  *           properties:
  *             name:
  *               type: string
- *            password:
+ *             password:
  *              type: string
  *     responses:
  *      200: 
