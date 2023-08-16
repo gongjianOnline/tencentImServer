@@ -1,0 +1,34 @@
+{
+  "name": "tencent-im-server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "nodemon bin/www",
+    "start": "node bin/www",
+    "dev": "./node_modules/.bin/nodemon bin/www",
+    "prd": "pm2 start bin/www --name tencentIMServer",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.0",
+    "koa-onerror": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.0",
+    "koa2-swagger-ui": "^5.8.0",
+    "mysql": "^2.18.1",
+    "pug": "^2.0.3",
+    "qcloud-cos-sts": "^3.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "tls-sig-api-v2": "^1.0.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
