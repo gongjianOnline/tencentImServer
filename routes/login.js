@@ -39,6 +39,8 @@ const uuid = require('uuid')
  *           properties:
  *             name:
  *               type: string
+ *            password:
+ *              type: string
  *     responses:
  *      200: 
  *        description: 成功获取
